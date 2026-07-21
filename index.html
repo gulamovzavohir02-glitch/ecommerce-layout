@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MONO Goods — Product Catalog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="catalog" aria-labelledby="catalog-title">
+      <div class="catalog__header">
+        <div class="catalog__marker" aria-hidden="true">
+          <span>01</span>
+          <i></i>
+        </div>
+        <div class="catalog__intro">
+          <h1 id="catalog-title">Designed for a calmer desk.</h1>
+          <p class="catalog__description">
+            Premium everyday objects with quiet materials, exact proportions, and a softer rhythm for focused work.
+          </p>
+        </div>
+        <p class="catalog__count">Collection 01 <span>8 objects</span></p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card" id="pivot-desk-lamp">
+          <a class="product-card__media" href="#pivot-desk-lamp" aria-label="View Pivot Desk Lamp">
+            <img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80" srcset="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=480&q=80 480w, https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80 800w, https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1000&q=80 1000w" sizes="(min-width: 1120px) 23vw, (min-width: 660px) 48vw, calc(100vw - 36px)" alt="Green desk lamp on a minimal table" decoding="async" fetchpriority="high">
+            <span class="product-card__badge">New</span>
+          </a>
+          <div class="product-card__body">
+            <div class="product-card__top">
+              <div>
+                <p class="product-card__category">Lighting</p>
+                <h2>Pivot Desk Lamp</h2>
+              </div>
+              <div class="product-card__price">
+                <span>$129</span>
+                <del>$159</del>
+              </div>
+            </div>
+            <div class="product-card__footer">
+              <span class="rating" aria-label="Rated 4.9 out of 5"><span aria-hidden="true">★★★★★</span> <b>4.9</b></span>
+              <button class="button" type="button" aria-label="Add Pivot Desk Lamp to cart" popovertarget="cart-pivot">Add to cart</button>
+              <div class="cart-toast" id="cart-pivot" popover role="status"><strong>Added to cart</strong><span>Pivot Desk Lamp is ready in your bag.</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" id="linen-notebook">
+          <a class="product-card__media" href="#linen-notebook" aria-label="View Linen Notebook">
+            <img src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80" alt="Notebook and pen on a bright desk" loading="lazy" decoding="async">
+          </a>
+          <div class="product-card__body">
+            <div class="product-card__top">
+              <div>
+                <p class="product-card__category">Paper</p>
+                <h2>Linen Notebook</h2>
+              </div>
+              <div class="product-card__price">
+                <span>$24</span>
+                <del>$32</del>
+              </div>
+            </div>
+            <div class="product-card__footer">
+              <span class="rating" aria-label="Rated 4.8 out of 5"><span aria-hidden="true">★★★★★</span> <b>4.8</b></span>
+              <button class="button" type="button" aria-label="Add Linen Notebook to cart" popovertarget="cart-notebook">Add to cart</button>
+              <div class="cart-toast" id="cart-notebook" popover role="status"><strong>Added to cart</strong><span>Linen Notebook is ready in your bag.</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" id="stone-ceramic-cup">
+          <a class="product-card__media" href="#stone-ceramic-cup" aria-label="View Stone Ceramic Cup">
+            <img src="https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=800&q=80" alt="Ceramic cup on a warm neutral surface" loading="lazy" decoding="async">
+            <span class="product-card__badge">Best Seller</span>
+          </a>
+          <div class="product-card__body">
+            <div class="product-card__top">
+              <div>
+                <p class="product-card__category">Tableware</p>
+                <h2>Stone Ceramic Cup</h2>
+              </div>
+              <div class="product-card__price">
+                <span>$28</span>
+                <del>$36</del>
+              </div>
+            </div>
+            <div class="product-card__footer">
+              <span class="rating" aria-label="Rated 4.9 out of 5"><span aria-hidden="true">★★★★★</span> <b>4.9</b></span>
+              <button class="button" type="button" aria-label="Add Stone Ceramic Cup to cart" popovertarget="cart-cup">Add to cart</button>
+              <div class="cart-toast" id="cart-cup" popover role="status"><strong>Added to cart</strong><span>Stone Ceramic Cup is ready in your bag.</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" id="walnut-desk-tray">
+          <a class="product-card__media" href="#walnut-desk-tray" aria-label="View Walnut Desk Tray">
+            <img src="https://images.unsplash.com/photo-1496128959656-addf33ffc2d5?auto=format&fit=crop&w=800&q=80" alt="Organizer tray with pens, calendar, coins and keys" loading="lazy" decoding="async">
+          </a>
+          <div class="product-card__body">
+            <div class="product-card__top">
+              <div>
+                <p class="product-card__category">Organization</p>
+                <h2>Walnut Desk Tray</h2>
+              </div>
+              <div class="product-card__price">
+                <span>$42</span>
+                <del>$55</del>
+              </div>
+            </div>
+            <div class="product-card__footer">
+              <span class="rating" aria-label="Rated 4.7 out of 5"><span aria-hidden="true">★★★★★</span> <b>4.7</b></span>
+              <button class="button" type="button" aria-label="Add Walnut Desk Tray to cart" popovertarget="cart-tray">Add to cart</button>
+              <div class="cart-toast" id="cart-tray" popover role="status"><strong>Added to cart</strong><span>Walnut Desk Tray is ready in your bag.</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" id="oak-monitor-stand">
+          <a class="product-card__media" href="#oak-monitor-stand" aria-label="View Oak Monitor Stand">
+            <img src="https://images.unsplash.com/photo-1678799192691-69f9b3518d23?auto=format&fit=crop&w=800&q=80" alt="Wide monitor on a wooden standing desk" loading="lazy" decoding="async">
+          </a>
+          <div class="product-card__body">
+            <div class="product-card__top">
+              <div>
+                <p class="product-card__category">Workspace</p>
+                <h2>Oak Monitor Stand</h2>
+              </div>
+              <div class="product-card__price">
+                <span>$96</span>
+                <del>$120</del>
+              </div>
+            </div>
+            <div class="product-card__footer">
+              <span class="rating" aria-label="Rated 4.8 out of 5"><span aria-hidden="true">★★★★★</span> <b>4.8</b></span>
+              <button class="button" type="button" aria-label="Add Oak Monitor Stand to cart" popovertarget="cart-stand">Add to cart</button>
+              <div class="cart-toast" id="cart-stand" popover role="status"><strong>Added to cart</strong><span>Oak Monitor Stand is ready in your bag.</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" id="soft-cable-dock">
+          <a class="product-card__media" href="#soft-cable-dock" aria-label="View Soft Cable Dock">
+            <img src="https://images.unsplash.com/photo-1760348213270-7cd00b8c3405?auto=format&fit=crop&w=800&q=80" alt="Under desk cable organizer holding a coiled white cable" loading="lazy" decoding="async">
+          </a>
+          <div class="product-card__body">
+            <div class="product-card__top">
+              <div>
+                <p class="product-card__category">Tech</p>
+                <h2>Soft Cable Dock</h2>
+              </div>
+              <div class="product-card__price">
+                <span>$18</span>
+                <del>$26</del>
+              </div>
+            </div>
+            <div class="product-card__footer">
+              <span class="rating" aria-label="Rated 4.6 out of 5"><span aria-hidden="true">★★★★★</span> <b>4.6</b></span>
+              <button class="button" type="button" aria-label="Add Soft Cable Dock to cart" popovertarget="cart-dock">Add to cart</button>
+              <div class="cart-toast" id="cart-dock" popover role="status"><strong>Added to cart</strong><span>Soft Cable Dock is ready in your bag.</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" id="focus-timer">
+          <a class="product-card__media" href="#focus-timer" aria-label="View Focus Timer">
+            <img src="https://images.unsplash.com/photo-1501139083538-0139583c060f?auto=format&fit=crop&w=800&q=80" alt="Analog clock on a desk" loading="lazy" decoding="async">
+            <span class="product-card__badge">Limited</span>
+          </a>
+          <div class="product-card__body">
+            <div class="product-card__top">
+              <div>
+                <p class="product-card__category">Focus</p>
+                <h2>Focus Timer</h2>
+              </div>
+              <div class="product-card__price">
+                <span>$34</span>
+                <del>$45</del>
+              </div>
+            </div>
+            <div class="product-card__footer">
+              <span class="rating" aria-label="Rated 4.9 out of 5"><span aria-hidden="true">★★★★★</span> <b>4.9</b></span>
+              <button class="button" type="button" aria-label="Add Focus Timer to cart" popovertarget="cart-timer">Add to cart</button>
+              <div class="cart-toast" id="cart-timer" popover role="status"><strong>Added to cart</strong><span>Focus Timer is ready in your bag.</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" id="wool-desk-mat">
+          <a class="product-card__media" href="#wool-desk-mat" aria-label="View Wool Desk Mat">
+            <img src="https://images.unsplash.com/photo-1702561667800-2c49b0182229?auto=format&fit=crop&w=800&q=80" alt="Black wool desk mat with keyboard and trackpad" loading="lazy" decoding="async">
+          </a>
+          <div class="product-card__body">
+            <div class="product-card__top">
+              <div>
+                <p class="product-card__category">Textiles</p>
+                <h2>Wool Desk Mat</h2>
+              </div>
+              <div class="product-card__price">
+                <span>$58</span>
+                <del>$72</del>
+              </div>
+            </div>
+            <div class="product-card__footer">
+              <span class="rating" aria-label="Rated 4.7 out of 5"><span aria-hidden="true">★★★★★</span> <b>4.7</b></span>
+              <button class="button" type="button" aria-label="Add Wool Desk Mat to cart" popovertarget="cart-mat">Add to cart</button>
+              <div class="cart-toast" id="cart-mat" popover role="status"><strong>Added to cart</strong><span>Wool Desk Mat is ready in your bag.</span></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
